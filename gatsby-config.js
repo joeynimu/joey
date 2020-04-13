@@ -10,8 +10,13 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
-        navigation: [{}],
-        externalLinks: []
+        navigation: [],
+        externalLinks: [
+          {
+            name: `Twitter`,
+            url: `https://twitter.com/africansinatra`
+          }
+        ]
       }
     },
     {
