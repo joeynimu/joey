@@ -4,6 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `Joey Ng'ethe`,
     siteTitleAlt: `Joey Ng'ethe`
   },
   plugins: [
@@ -11,12 +12,7 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
         navigation: [],
-        externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/africansinatra`
-          }
-        ]
+        externalLinks: []
       }
     },
     {
