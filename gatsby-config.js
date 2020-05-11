@@ -5,7 +5,7 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `Joey Ng'ethe`,
-    siteTitleAlt: `Joey's Blog - Javascript Engineer`,
+    siteTitleAlt: `Joey Ng'ethe - Javascript Engineer`,
     siteHeadline: `Joey's Blog - Javascript Engineer; React, GraphQL, Node and everything in between`,
     siteUrl: `https://joeynimu.com`,
     siteLanguage: `en`,
@@ -52,8 +52,15 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-twitter`,
+    // {
+    //   resolve: 'gatsby-transformer-remark',
+    //   options: {
+    //     plugins: ['@weknow/gatsby-remark-twitter']
+    //   }
+    // },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`
-    // `gatsby-plugin-webpack-bundle-analyser-v2`,
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-webpack-bundle-analyser-v2`
   ]
 };
