@@ -53,14 +53,9 @@ module.exports = {
       }
     },
     `gatsby-plugin-twitter`,
-    // {
-    //   resolve: 'gatsby-transformer-remark',
-    //   options: {
-    //     plugins: ['@weknow/gatsby-remark-twitter']
-    //   }
-    // },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
-    `gatsby-plugin-webpack-bundle-analyser-v2`
+    `gatsby-plugin-webpack-bundle-analyser-v2`,
+    `@pauliescanlon/gatsby-mdx-embed`
   ]
 };
