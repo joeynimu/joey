@@ -9,7 +9,9 @@ module.exports = {
     siteHeadline: `Joey's Blog - Javascript Engineer; React, GraphQL, Node and everything in between`,
     siteUrl: `https://joeynimu.com`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
+    siteKeywords:
+      "Joe Ng'ethe, Joe Ngethe, Joey Ng'ethe, Joey Ngethe, Joey, Ngethe, Ng'ethe, Frontend Engineer in Kenya, Frontend Engineer, Software Engineer, Engineers in Kenya, Nairobi Software Engineers, Graphql, React, Gatsby, Nextjs, Prismajs, javascript, frontend, css, UX engineers, Nairobi Graphql",
+    siteImage: `/joey.jpg`,
     siteDescription: `Joey Ng'ethe is a Javascript Engineer from Nairobi, Kenya.`,
     author: `@africansinatra`,
   },

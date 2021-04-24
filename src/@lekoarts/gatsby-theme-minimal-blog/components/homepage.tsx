@@ -33,12 +33,6 @@ const Homepage = ({ posts }: PostsProps) => {
 
   return (
     <Layout>
-      <Helmet>
-        <meta
-          name="keywords"
-          content="Joe Ng'ethe, Joe Ngethe, Joey Ng'ethe, Joey Ngethe, Joey, Ngethe, Ng'ethe, Frontend Engineer in Kenya, Frontend Engineer, Software Engineer, Engineers in Kenya, Nairobi Software Engineers, Graphql, React, Gatsby, Nextjs, Prismajs, javascript, frontend, css, UX engineers, Nairobi Graphql"
-        />
-      </Helmet>
       <section sx={{ mb: [4, 4, 6], p: { fontSize: [1, 2, 3], mt: 2 } }}>
         <Hero />
       </section>
