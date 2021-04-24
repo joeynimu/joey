@@ -5,10 +5,10 @@ import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout";
 // @ts-ignore
 import Hero from "@lekoarts/gatsby-theme-minimal-blog/src/texts/hero";
 // @ts-ignore
-import Bottom from "@lekoarts/gatsby-theme-minimal-blog/src/texts/bottom";
+
 import Title from "@lekoarts/gatsby-theme-minimal-blog/src/components/title";
 import Listing from "@lekoarts/gatsby-theme-minimal-blog/src/components/listing";
-import List from "@lekoarts/gatsby-theme-minimal-blog/src/components/list";
+
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config";
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes";
 import { Helmet } from "react-helmet";
@@ -42,9 +42,6 @@ const Homepage = ({ posts }: PostsProps) => {
         </Link>
       </Title>
       <Listing posts={posts} showTags={false} />
-      <List>
-        <Bottom />
-      </List>
     </Layout>
   );
 };
