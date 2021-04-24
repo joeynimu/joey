@@ -38,16 +38,6 @@ const Homepage = ({ posts }: PostsProps) => {
           name="keywords"
           content="Joe Ng'ethe, Joe Ngethe, Joey Ng'ethe, Joey Ngethe, Joey, Ngethe, Ng'ethe, Frontend Engineer in Kenya, Frontend Engineer, Software Engineer, Engineers in Kenya, Nairobi Software Engineers, Graphql, React, Gatsby, Nextjs, Prismajs, javascript, frontend, css, UX engineers, Nairobi Graphql"
         />
-        <meta
-          property="og:title"
-          content="Joey Ng'ethe - Javascript Engineer"
-        />
-        <meta
-          property="og:description"
-          content="Offering tour packages for individuals or groups."
-        />
-        <meta property="og:image" content="https://joeynimu.com/joey.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <section sx={{ mb: [4, 4, 6], p: { fontSize: [1, 2, 3], mt: 2 } }}>
         <Hero />
