@@ -76,7 +76,7 @@ const Post = ({ data: { post } }: PostProps) => {
       >
         <MDXRenderer>{post.body}</MDXRenderer>
         <TwitterShareButton
-          url={window.location.href}
+          url={typeof window !== "undefined" ? window.location.href : ""}
           title={post.title}
           via="@africansinatra"
         >
