@@ -78,7 +78,7 @@ const Post = ({ data: { post } }: PostProps) => {
         <TwitterShareButton
           url={typeof window !== "undefined" ? window.location.href : ""}
           title={post.title}
-          via="@africansinatra"
+          via="africansinatra"
         >
           <Flex
             sx={{
