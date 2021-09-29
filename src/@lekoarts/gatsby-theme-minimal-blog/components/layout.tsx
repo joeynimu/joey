@@ -35,14 +35,17 @@ const Layout = ({ children, className }: LayoutProps) => (
     />
     <SEO />
     <SkipNavLink>Skip to content</SkipNavLink>
-    <Container>
+    <Container
+      sx={{
+        margin: "auto",
+        maxWidth: 1024,
+        padding: "1rem",
+      }}
+    >
       <Header />
       <Box
         id="skip-nav"
         sx={{
-          margin: "auto",
-          maxWidth: 1024,
-          padding: "1rem",
           ...(CodeStyles as any),
         }}
         className={className}
