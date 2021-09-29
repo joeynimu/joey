@@ -1,6 +1,6 @@
 import React from "react";
-import { Global } from "@emotion/core";
-import { Main, Styled, Container, css } from "theme-ui";
+import { Global } from "@emotion/react";
+import { Box, Themed, Container, css } from "theme-ui";
 import "typeface-ibm-plex-sans";
 import SEO from "./seo";
 import Header from "./header";
@@ -11,7 +11,7 @@ import SkipNavLink from "@lekoarts/gatsby-theme-minimal-blog/src/components/skip
 type LayoutProps = { children: React.ReactNode; className?: string };
 
 const Layout = ({ children, className }: LayoutProps) => (
-  <Styled.root data-testid="theme-root">
+  <Themed.root data-testid="theme-root">
     <Global
       styles={css({
         "*": {
@@ -37,12 +37,16 @@ const Layout = ({ children, className }: LayoutProps) => (
     <SkipNavLink>Skip to content</SkipNavLink>
     <Container>
       <Header />
-      <Main id="skip-nav" css={css({ ...CodeStyles })} className={className}>
+      <Box
+        id="skip-nav"
+        sx={{ maxWidth: 1024, padding: "1rem", ...(CodeStyles as any) }}
+        className={className}
+      >
         {children}
-      </Main>
+      </Box>
       <Footer />
     </Container>
-  </Styled.root>
+  </Themed.root>
 );
 
 export default Layout;
